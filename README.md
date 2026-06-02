@@ -39,11 +39,22 @@
 
 > *"Write a short literature review arguing that spaced repetition improves long-term retention, using these three papers."*  — then paste Cepeda et al. (2006), Karpicke & Roediger (2008), Kornell (2009).
 
-A grounded excerpt of what comes back:
+What comes back is **always the same shape** — the document, a references list, and an honesty footer — no matter which model runs the skill:
 
-> A robust body of cognitive research supports the claim that spaced repetition improves long-term retention. The most comprehensive evidence comes from **Cepeda, Pashler, Vul, Wixted, and Rohrer (2006)**, whose synthesis of 317 experiments found that distributed practice reliably outperformed massed practice, with the advantage *growing as the retention interval lengthened*… Why spacing yields these gains is illuminated by work on retrieval: **Karpicke and Roediger (2008)** showed that repeatedly retrieving information produced large gains one week later…
+> # Spaced Repetition and Long-Term Retention
+>
+> A robust body of cognitive research supports the claim that spaced repetition improves long-term retention. The most comprehensive evidence comes from **Cepeda et al. (2006)**, whose synthesis of 317 experiments found distributed practice reliably outperformed massed practice, with the advantage *growing as the retention interval lengthened*… **Karpicke and Roediger (2008)** show that repeatedly retrieving information produces large gains a week later…
+>
+> ## References
+> 1. Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). Distributed practice in verbal recall tasks. *Psychological Bulletin*.
+> 2. Karpicke, J. D., & Roediger, H. L. (2008). The critical importance of retrieval for learning. *Science*.
+> 3. Kornell, N. (2009). Optimising learning using flashcards. *Applied Cognitive Psychology*.
+>
+> ---
+> ✅ **Citations checked** — every in-text citation matches your supplied papers (3 sources cited · APA 7th). Nothing changed.
+> 📄 **literature review** · used 3 of 3 papers · ~250 words
 
-🔎 **The honesty test it passes:** Karpicke & Roediger is about *retrieval*, not *spacing* — so it is cited only for the retrieval mechanism, and the link to spacing is framed as synthesis, **not miscredited as that paper's finding.** That discipline is the whole point.
+🔎 **The honesty test it passes:** Karpicke & Roediger is about *retrieval*, not *spacing* — so it's cited only for the retrieval mechanism, **never miscredited with a spacing finding.** That discipline is the whole point.
 
 <br>
 
@@ -69,6 +80,21 @@ Literature review · Theoretical framework · Research proposal · Introduction 
 | Built-in paper search & deep read | bring your own | ✅ end-to-end |
 | Saved projects & live citation manager | — | ✅ |
 | Multi-agent peer review of your draft | — | ✅ Paper Review |
+
+## 🐱 The AcademiCats skill family
+
+Three open skills that chain into one research workflow — install any or all:
+
+- 🔍 [Paper Search](https://github.com/jy1529098645-gif/Cat_paper_search) — find & read papers
+- ✍️ **Synthesis Lab** *(you are here)* — write grounded papers from your sources
+- 🧪 [Paper Review](https://github.com/jy1529098645-gif/Cat_paper_review) — peer-review your own draft
+
+## 🙋 FAQ
+
+- **It didn't trigger?** Restart Claude Code after installing, and phrase your message as a task — *"write the lit review from these papers …"*.
+- **Where do the papers come from?** You paste them in — or pair this with **Paper Search** to find and read them first, then write from the results.
+- **Which model?** Any model works; quality is best on Claude Sonnet or above.
+- **Private & free?** It runs on your own Claude — no account, nothing sent to us.
 
 <div align="center">
 <br>

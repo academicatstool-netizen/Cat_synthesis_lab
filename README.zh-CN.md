@@ -39,11 +39,22 @@
 
 > *"用这三篇论文，帮我写一篇短文献综述，论点是间隔重复能提升长期记忆。"* —— 然后粘贴 Cepeda et al. (2006)、Karpicke & Roediger (2008)、Kornell (2009)。
 
-它产出内容的一段（有据可查）：
+它返回的成品**永远是同一种结构**——正文、参考文献、一段诚实页脚——换任何大模型跑都一样：
 
-> 大量认知科学研究支持"间隔重复能提升长期记忆"这一论断。最全面的证据来自 **Cepeda, Pashler, Vul, Wixted, and Rohrer (2006)**，他们对 317 项实验的综合分析发现，分散练习的留存效果稳定优于集中练习，且这一优势*随留存间隔的拉长而增大*…… 至于间隔为何带来这种收益，可由"提取"相关研究阐明：**Karpicke and Roediger (2008)** 表明，反复提取信息能在一周后带来显著的留存提升……
+> # 间隔重复与长期记忆
+>
+> 大量认知科学研究支持"间隔重复能提升长期记忆"这一论断。最全面的证据来自 **Cepeda et al. (2006)**，他们对 317 项实验的综合分析发现，分散练习的留存效果稳定优于集中练习，且这一优势*随留存间隔的拉长而增大*…… **Karpicke and Roediger (2008)** 表明，反复提取信息能在一周后带来显著的留存提升……
+>
+> ## References
+> 1. Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). Distributed practice in verbal recall tasks. *Psychological Bulletin*.
+> 2. Karpicke, J. D., & Roediger, H. L. (2008). The critical importance of retrieval for learning. *Science*.
+> 3. Kornell, N. (2009). Optimising learning using flashcards. *Applied Cognitive Psychology*.
+>
+> ---
+> ✅ **引用已核验** —— 每个文内引用都对得上你提供的论文（引用了 3 篇 · APA 7th）。未做改动。
+> 📄 **文献综述** · 用了 3 篇中的 3 篇 · 约 250 词
 
-🔎 **它通过的诚实测试：** Karpicke & Roediger 讲的是*提取练习*而非*间隔*—— 所以它只被引用来解释提取机制，而与"间隔"的关联被表述为综合推断，**绝不冒充成那篇论文的发现**。这种克制正是本 skill 的全部价值所在。
+🔎 **它通过的诚实测试：** Karpicke & Roediger 讲的是*提取练习*而非*间隔*—— 所以它只被引用来解释提取机制，**绝不冒充成那篇论文的发现**。这种克制正是本 skill 的全部价值所在。
 
 <br>
 
@@ -69,6 +80,21 @@ git clone https://github.com/jy1529098645-gif/Cat_synthesis_lab.git ~/.claude/sk
 | 内置文献检索与精读 | 自备文献 | ✅ 端到端 |
 | 项目保存与实时引用管理 | — | ✅ |
 | 对草稿的多智能体同行评审 | — | ✅ Paper Review |
+
+## 🐱 AcademiCats 技能家族
+
+三个开源 skill，串起一条完整的研究工作流——按需安装其一或全部：
+
+- 🔍 [论文检索](https://github.com/jy1529098645-gif/Cat_paper_search) —— 找文献、读文献
+- ✍️ **文献写作台** *（你在这里）* —— 据你的文献写出有据成稿
+- 🧪 [模拟同行评审](https://github.com/jy1529098645-gif/Cat_paper_review) —— 对你自己的草稿做同行评审
+
+## 🙋 常见问题
+
+- **没触发？** 安装后重启 Claude Code，并把话说成一个任务 —— *"用这几篇论文帮我写文献综述…"*。
+- **论文从哪来？** 你自己粘进来——或者搭配 **论文检索** 先找好、读好，再据结果写作。
+- **用哪个模型？** 任何模型都能跑；用 Claude Sonnet 及以上效果最好。
+- **隐私 & 免费？** 全程跑在你自己的 Claude 上——无需账号、不向我们回传任何东西。
 
 <div align="center">
 <br>
