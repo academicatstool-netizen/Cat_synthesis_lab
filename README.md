@@ -79,6 +79,8 @@ git clone https://github.com/jy1529098645-gif/Cat_synthesis_lab.git ~/.claude/sk
 
 Restart Claude Code, then just talk to it — *"help me write the lit review for my thesis arguing X, using these papers …"* or *"turn my experience into a statement of purpose for a CS PhD."* The skill triggers itself and runs entirely on your own Claude.
 
+**On Claude web or desktop instead?** Download **[`synthesis-lab.skill`](synthesis-lab.skill)** and upload it under **Settings → Capabilities → Skills** — then just ask in any chat.
+
 <br>
 
 ## 💙 Ten things it can write

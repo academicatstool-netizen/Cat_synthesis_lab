@@ -79,6 +79,8 @@ git clone https://github.com/jy1529098645-gif/Cat_synthesis_lab.git ~/.claude/sk
 
 重启 Claude Code，然后直接跟它说 —— *"用这几篇论文帮我写论点为 X 的文献综述…"* 或 *"把我的经历写成 CS 博士申请文书。"* skill 会**自动触发**，全程跑在你自己的 Claude 上。
 
+**用网页版 / 桌面版 Claude？** 下载 **[`synthesis-lab.skill`](synthesis-lab.skill)**，在 **Settings → Capabilities → Skills** 里上传，然后在任意对话里直接问即可。
+
 <br>
 
 ## 💙 它能写的十种文体
