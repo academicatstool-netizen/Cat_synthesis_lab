@@ -50,11 +50,12 @@ A grounded excerpt of what comes back:
 ## 🚀 Get started in 60 seconds
 
 ```bash
-# drop this skill where Claude Code can find it — no dependencies, no setup
-cp -r Cat_synthesis_lab ~/.claude/skills/synthesis-lab
+# install into Claude Code's skills folder — no dependencies, no setup
+mkdir -p ~/.claude/skills
+git clone https://github.com/jy1529098645-gif/Cat_synthesis_lab.git ~/.claude/skills/synthesis-lab
 ```
 
-Then just talk to Claude: *"help me write the lit review for my thesis arguing X, using these papers …"* or *"turn my experience into a statement of purpose for a CS PhD."* The skill triggers itself and runs entirely on your own Claude.
+Restart Claude Code, then just talk to it — *"help me write the lit review for my thesis arguing X, using these papers …"* or *"turn my experience into a statement of purpose for a CS PhD."* The skill triggers itself and runs entirely on your own Claude.
 
 <br>
 

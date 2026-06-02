@@ -50,11 +50,12 @@
 ## 🚀 60 秒上手
 
 ```bash
-# 把 skill 放到 Claude Code 能发现的位置 —— 无依赖、零配置
-cp -r Cat_synthesis_lab ~/.claude/skills/synthesis-lab
+# 安装到 Claude Code 的 skills 目录 —— 无依赖、零配置
+mkdir -p ~/.claude/skills
+git clone https://github.com/jy1529098645-gif/Cat_synthesis_lab.git ~/.claude/skills/synthesis-lab
 ```
 
-然后直接跟 Claude 说：*"用这几篇论文帮我写论点为 X 的文献综述…"* 或 *"把我的经历写成 CS 博士申请文书。"* skill 会**自动触发**，全程跑在你自己的 Claude 上。
+重启 Claude Code，然后直接跟它说 —— *"用这几篇论文帮我写论点为 X 的文献综述…"* 或 *"把我的经历写成 CS 博士申请文书。"* skill 会**自动触发**，全程跑在你自己的 Claude 上。
 
 <br>
 
@@ -62,7 +63,7 @@ cp -r Cat_synthesis_lab ~/.claude/skills/synthesis-lab
 
 文献综述 · 理论框架 · 研究计划 · 引言 · 讨论 · 结论 · 摘要 · 学术论说文 · **个人陈述 / 申请文书（SoP）** · **简历 / CV**
 
-|  | Synthesis Lab（本 skill） | [AcademiCats 完整产品 →](https://academicats.com) |
+|  | 文献写作台（本 skill） | [AcademiCats 完整产品 →](https://academicats.com) |
 |---|:---:|:---:|
 | 有据写作、引用核验 | ✅ | ✅ |
 | 内置文献检索与精读 | 自备文献 | ✅ 端到端 |
