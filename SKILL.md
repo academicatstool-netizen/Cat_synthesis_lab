@@ -42,23 +42,21 @@ runtime. The planner's outline and any JSON are **internal scratch — do not sh
 them to the user**; the only things you deliver are the final document, its
 references, and a one-line note on any citation you had to fix.
 
-**First — show the writing setup and let the user choose.** Before writing,
-present this compact menu with defaults pre-filled from their request, then wait
-for their reply. It's plain text, so any model shows it the same way:
+**Default = write immediately. Don't gate behind a confirmation menu.** If you
+have the **document type** and the **source papers** (and the thesis, or you can
+infer one), just write it — using sensible defaults (APA 7th, a length that fits
+the type, the user's language). Don't ask the user to confirm things they already
+told you. After delivering, add ONE line so they can adjust: *"Written as a ~800-
+word literature review, APA 7th — say the word to change length, style, or focus."*
 
-> ✍️ **Writing setup** — confirm or tweak, then I'll write it:
-> 1. **Document type** — `<inferred>`  *(lit review / framework / proposal / intro / discussion / conclusion / abstract / essay / personal statement / résumé)*
-> 2. **Core argument / thesis** — `<inferred, or "you tell me">`
-> 3. **Citation style** — `APA 7th`  *(APA / MLA / Chicago / Harvard / IEEE / Vancouver / AMA — skip for personal statement & résumé)*
-> 4. **Length** — `~800 words`  *(or give a target)*
-> 5. **Language** — `English`
->
-> Reply with any changes, or just say **go**.
+Show the setup menu **only when something essential is missing** — no papers
+supplied (ask for them, or offer **Paper Search**), or the document type is
+unclear. Then keep it to just what you actually need:
 
-Pre-fill any field the user already gave; the fields adapt to the type (a résumé
-has no citation style). Also confirm you actually have the source papers (for the
-citing types) — if not, ask for them or offer to find them with **Paper Search**.
-If the user clearly wants speed, skip the wait and proceed.
+> ✍️ **Quick setup** — I just need:
+> 1. **Document type** — `(lit review / proposal / intro / discussion / essay / personal statement / résumé / …)`
+> 2. **Your papers** — paste them, or say "find them for me"
+> *(I'll default to APA 7th + a fitting length + your language — say so to change.)*
 
 Then follow the flow in `references/synthesis.md` — do not one-shot it, because
 the separation of roles is what keeps citations honest:
@@ -97,6 +95,11 @@ Field rules (so the numbers are identical across models): **`<N> sources cited`*
 distinct supplied papers that carry at least one in-text citation; **`<style>`** =
 the citation style used (default `APA 7th`); **`~<N> words`** = the document body
 only (exclude the title and References).
+
+**Localize the footer to the document's language** — translate the labels and use
+the natural length unit: English → `words`; Chinese → `字`; etc. (A Chinese
+review should read `约 760 字`, not `~760 words`.) The status footer is meta, not
+part of the document — keep it short so it's easy to delete before submitting.
 
 - The **`## References`** section and the **citation-checked** line appear only
   for the paper-citing types (literature review, framework, proposal,
