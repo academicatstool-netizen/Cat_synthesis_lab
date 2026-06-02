@@ -89,6 +89,7 @@ Literature review · Theoretical framework · Research proposal · Introduction 
 
 |  | Synthesis Lab (this skill) | [AcademiCats full product →](https://academicats.com) |
 |---|:---:|:---:|
+| ⚡ **Speed** | minutes (one Claude pass) | faster — streamed, parallel drafting |
 | Grounded writing, verified citations | ✅ | ✅ |
 | Built-in paper search & deep read | bring your own | ✅ end-to-end |
 | Saved projects & live citation manager | — | ✅ |

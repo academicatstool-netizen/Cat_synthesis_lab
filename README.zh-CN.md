@@ -89,6 +89,7 @@ git clone https://github.com/jy1529098645-gif/Cat_synthesis_lab.git ~/.claude/sk
 
 |  | 文献写作台（本 skill） | [AcademiCats 完整产品 →](https://academicats.com) |
 |---|:---:|:---:|
+| ⚡ **速度** | 几分钟（单个 Claude 一遍生成） | 更快 —— 流式 + 并行起草 |
 | 有据写作、引用核验 | ✅ | ✅ |
 | 内置文献检索与精读 | 自备文献 | ✅ 端到端 |
 | 项目保存与实时引用管理 | — | ✅ |
