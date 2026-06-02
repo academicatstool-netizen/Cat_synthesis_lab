@@ -6,7 +6,7 @@
 
 <br>
 
-# 🐱 Synthesis Lab · 文献写作台
+# 🐱 文献写作台
 
 **把你的文献变成专业的学术写作 —— 综述、研究计划、文书、申请文书、简历。每条引用都追溯到真实论文，并在你看到之前就完成核验。**
 
@@ -41,7 +41,7 @@
 
 它产出内容的一段（有据可查）：
 
-> A robust body of cognitive research supports the claim that spaced repetition improves long-term retention. The most comprehensive evidence comes from **Cepeda, Pashler, Vul, Wixted, and Rohrer (2006)**, whose synthesis of 317 experiments found that distributed practice reliably outperformed massed practice, with the advantage *growing as the retention interval lengthened*… Why spacing yields these gains is illuminated by work on retrieval: **Karpicke and Roediger (2008)** showed that repeatedly retrieving information produced large gains one week later…
+> 大量认知科学研究支持"间隔重复能提升长期记忆"这一论断。最全面的证据来自 **Cepeda, Pashler, Vul, Wixted, and Rohrer (2006)**，他们对 317 项实验的综合分析发现，分散练习的留存效果稳定优于集中练习，且这一优势*随留存间隔的拉长而增大*…… 至于间隔为何带来这种收益，可由"提取"相关研究阐明：**Karpicke and Roediger (2008)** 表明，反复提取信息能在一周后带来显著的留存提升……
 
 🔎 **它通过的诚实测试：** Karpicke & Roediger 讲的是*提取练习*而非*间隔*—— 所以它只被引用来解释提取机制，而与"间隔"的关联被表述为综合推断，**绝不冒充成那篇论文的发现**。这种克制正是本 skill 的全部价值所在。
 

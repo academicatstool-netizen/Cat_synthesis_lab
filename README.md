@@ -6,11 +6,9 @@
 
 <br>
 
-# 🐱 Synthesis Lab · 文献写作台
+# 🐱 Synthesis Lab
 
 **Turn your sources into polished academic writing — literature reviews, proposals, essays, statements of purpose, résumés. Every citation traced to a real paper and verified before you ever see it.**
-
-把你的文献变成专业的学术写作——综述、研究计划、文书、简历。**每条引用都追溯到真实论文，并在交付前核验。**
 
 <br>
 
@@ -24,8 +22,6 @@
 
 > ### 🪶 This is the **lite, open-source edition** of [**AcademiCats**](https://academicats.com)
 > The full product at **[academicats.com](https://academicats.com)** is an AI research workbench that takes you from *finding* papers through *reading, writing, and self-review* — with saved projects, live citation tooling, a polished editor, and a multi-agent reviewer. This skill is a free, self-contained slice of the writing workflow you can run on your own Claude.
->
-> 这是 [**AcademiCats**](https://academicats.com) 的**开源轻量版**。完整产品在 **academicats.com**——一个从找文献到读、写、自审的 AI 研究工作台。
 
 ---
 
