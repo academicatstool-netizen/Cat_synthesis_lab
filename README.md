@@ -39,7 +39,18 @@
 
 > *"Write a short literature review arguing that spaced repetition improves long-term retention, using these three papers."*  — then paste Cepeda et al. (2006), Karpicke & Roediger (2008), Kornell (2009).
 
-What comes back is **always the same shape** — the document, a references list, and an honesty footer — no matter which model runs the skill:
+First it shows a quick **writing setup** so you stay in control — same on any model:
+
+> ✍️ **Writing setup** — confirm or tweak, then I'll write it:
+> 1. **Document type** — literature review
+> 2. **Core argument** — spaced repetition improves long-term retention
+> 3. **Citation style** — APA 7th
+> 4. **Length** — ~250 words
+> 5. **Language** — English
+>
+> Reply with any changes, or just say **go**.
+
+Then what comes back is **always the same shape** — the document, a references list, and an honesty footer — no matter which model runs the skill:
 
 > # Spaced Repetition and Long-Term Retention
 >

@@ -42,8 +42,26 @@ runtime. The planner's outline and any JSON are **internal scratch — do not sh
 them to the user**; the only things you deliver are the final document, its
 references, and a one-line note on any citation you had to fix.
 
-Follow the flow in `references/synthesis.md` — do not one-shot it, because the
-separation of roles is what keeps citations honest:
+**First — show the writing setup and let the user choose.** Before writing,
+present this compact menu with defaults pre-filled from their request, then wait
+for their reply. It's plain text, so any model shows it the same way:
+
+> ✍️ **Writing setup** — confirm or tweak, then I'll write it:
+> 1. **Document type** — `<inferred>`  *(lit review / framework / proposal / intro / discussion / conclusion / abstract / essay / personal statement / résumé)*
+> 2. **Core argument / thesis** — `<inferred, or "you tell me">`
+> 3. **Citation style** — `APA 7th`  *(APA / MLA / Chicago / Harvard / IEEE / Vancouver / AMA — skip for personal statement & résumé)*
+> 4. **Length** — `~800 words`  *(or give a target)*
+> 5. **Language** — `English`
+>
+> Reply with any changes, or just say **go**.
+
+Pre-fill any field the user already gave; the fields adapt to the type (a résumé
+has no citation style). Also confirm you actually have the source papers (for the
+citing types) — if not, ask for them or offer to find them with **Paper Search**.
+If the user clearly wants speed, skip the wait and proceed.
+
+Then follow the flow in `references/synthesis.md` — do not one-shot it, because
+the separation of roles is what keeps citations honest:
 
 1. **Plan** — curate which papers earn a citation (reject the ones that don't
    fit the thesis) and outline the sections.
