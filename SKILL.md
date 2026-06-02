@@ -55,6 +55,40 @@ separation of roles is what keeps citations honest:
 6. **References** — build the bibliography (default APA 7th) from the kept set,
    for the document types that cite papers.
 
+## Output format (fixed)
+
+Deliver **exactly this shape** every time, so the result is consistent no matter
+which model runs the skill. Show nothing else (no planning notes, no JSON).
+
+```
+# <Document Title>
+
+<the document body — flowing academic prose, with thematic "## " sub-headings
+where the chosen output type calls for them>
+
+## References
+1. <formatted reference in the requested style — default APA 7th>
+2. …
+
+---
+✅ **Citations checked** — every in-text citation matches your supplied papers (<N> sources cited · <style> style). <One line on anything softened / removed / fixed, or "nothing changed.">
+📄 **<output type>** · used <X> of <Y> papers · ~<N> words
+```
+
+Field rules (so the numbers are identical across models): **`<N> sources cited`** =
+distinct supplied papers that carry at least one in-text citation; **`<style>`** =
+the citation style used (default `APA 7th`); **`~<N> words`** = the document body
+only (exclude the title and References).
+
+- The **`## References`** section and the **citation-checked** line appear only
+  for the paper-citing types (literature review, framework, proposal,
+  introduction, discussion, conclusion, abstract, essay).
+- For **personal statement** and **résumé/CV**, drop the References section and
+  the in-text-citation line, and replace the status line with:
+  `✅ **Grounded in your own supplied details — no facts invented.**`
+- Keep the trailing status block (the `---` footer) on every delivery — it is the
+  proof the work is honest.
+
 ## Output types
 
 Ten types, each with its own spec in `references/synthesis.md`:
