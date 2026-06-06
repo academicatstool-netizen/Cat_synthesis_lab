@@ -13,7 +13,7 @@
 <br>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-7C5CFF.svg)](LICENSE)
-&nbsp;[![Runs on Claude](https://img.shields.io/badge/runs%20on-Claude-7C5CFF.svg)](https://claude.com/claude-code)
+&nbsp;[![Runs on](https://img.shields.io/badge/runs%20on-Claude%20%7C%20ChatGPT%20%7C%20DeepSeek-7C5CFF.svg)](https://claude.com/claude-code)
 &nbsp;[![Full product](https://img.shields.io/badge/full%20product-academicats.com-7C5CFF.svg)](https://academicats.com)
 
 </div>
@@ -21,7 +21,7 @@
 ---
 
 > ### 🪶 This is the **lite, open-source edition** of [**AcademiCats**](https://academicats.com) — now in free open beta
-> The full product at **[academicats.com](https://academicats.com)** is an AI research workbench that takes you from *finding* papers through *reading, writing, and self-review* — with saved projects, live citation tooling, a polished editor, and a multi-agent reviewer. This skill is a free, self-contained slice of the writing workflow you can run on your own Claude.
+> The full product at **[academicats.com](https://academicats.com)** is an AI research workbench that takes you from *finding* papers through *reading, writing, and self-review* — with saved projects, live citation tooling, a polished editor, and a multi-agent reviewer. This skill is a free, self-contained slice of the writing workflow you can run on your own AI — Claude, ChatGPT, or DeepSeek.
 
 ---
 
@@ -85,7 +85,7 @@ Literature review · Theoretical framework · Research proposal · Introduction 
 
 |  | Synthesis Lab (this skill) | [AcademiCats full product →](https://academicats.com) |
 |---|:---:|:---:|
-| ⚡ **Speed** | minutes (one Claude pass) | faster — streamed, parallel drafting |
+| ⚡ **Speed** | minutes (one model pass) | faster — streamed, parallel drafting |
 | Grounded writing, citations cross-checked | ✅ | ✅ |
 | Built-in paper search & deep read | bring your own | ✅ end-to-end |
 | Saved projects & live citation manager | — | ✅ |
