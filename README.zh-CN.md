@@ -75,6 +75,8 @@ git clone https://github.com/jy1529098645-gif/Cat_synthesis_lab.git ~/.claude/sk
 
 **💬 DeepSeek / 任意其他模型** —— 把 **[`PORTABLE_PROMPT.md`](PORTABLE_PROMPT.md)** 作为**系统提示**（或第一条消息）粘贴，然后把论文和目标交给它。
 
+> ✅ **无需联网** —— 文献写作台是纯推理，任何模型上都能完整运行（在线离线都行）。论文由你提供，它不需要联网查任何东西。
+
 <br>
 
 ## 💙 它能写的十种文体

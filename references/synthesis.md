@@ -243,7 +243,11 @@ one journal article — Smith, J. A. (2024). *Title*. Journal, 10(2), 45–68:
 - **AMA** — Smith JA. Title. *Journal*. 2024;10(2):45–68.
 
 Only use bibliographic fields actually present in the paper records. Don't
-fabricate volume/issue/page numbers; omit what you don't have.
+fabricate volume/issue/page numbers — this includes filling in "standard-looking"
+APA volume(issue), page ranges, or article numbers the user never supplied.
+Render the reference with only the fields you were given (author, year, title,
+journal) and silently omit the rest; a short reference is correct, an invented
+one is not.
 
 ---
 

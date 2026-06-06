@@ -75,6 +75,8 @@ Restart Claude Code, then just ask — *"write the lit review for my thesis argu
 
 **💬 DeepSeek / any other model** — paste **[`PORTABLE_PROMPT.md`](PORTABLE_PROMPT.md)** as the **system prompt** (or first message). Then give it your papers and goal.
 
+> ✅ **No web access needed** — Synthesis Lab is pure reasoning, so it runs fully on any model, online or off. You bring the papers; it never needs to look anything up.
+
 <br>
 
 ## 💙 Ten things it can write
