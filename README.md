@@ -58,17 +58,22 @@ You gave the type (lit review), the thesis, and the papers — so it writes stra
 
 <br>
 
-## 🚀 Get started in 60 seconds
+## 🚀 Get started — pick your platform
 
+Pick whichever AI you use; each setup takes under a minute.
+
+**🖥️ Claude Code** — runs locally, triggers itself
 ```bash
-# install into Claude Code's skills folder — no dependencies, no setup
 mkdir -p ~/.claude/skills
 git clone https://github.com/jy1529098645-gif/Cat_synthesis_lab.git ~/.claude/skills/synthesis-lab
 ```
+Restart Claude Code, then just ask — *"write the lit review for my thesis arguing X, using these papers …"*
 
-Restart Claude Code, then just talk to it — *"help me write the lit review for my thesis arguing X, using these papers …"* or *"turn my experience into a statement of purpose for a CS PhD."* The skill triggers itself and runs entirely on your own Claude.
+**🌐 Claude (web / desktop app)** — download **[`synthesis-lab.skill`](synthesis-lab.skill)**, then upload it under **Settings → Capabilities → Skills**. Ask in any chat.
 
-**On Claude web or desktop instead?** Download **[`synthesis-lab.skill`](synthesis-lab.skill)** and upload it under **Settings → Capabilities → Skills** — then just ask in any chat.
+**🤖 ChatGPT** — open **[`PORTABLE_PROMPT.md`](PORTABLE_PROMPT.md)** and paste it into a **Custom GPT**'s *Instructions* (or just send it as your first message). Then give it your papers and goal.
+
+**💬 DeepSeek / any other model** — paste **[`PORTABLE_PROMPT.md`](PORTABLE_PROMPT.md)** as the **system prompt** (or first message). Then give it your papers and goal.
 
 <br>
 
@@ -84,15 +89,6 @@ Literature review · Theoretical framework · Research proposal · Introduction 
 | Saved projects & live citation manager | — | ✅ |
 | Multi-agent peer review of your draft | — | ✅ Paper Review |
 
-## 🌐 Use it on ChatGPT, DeepSeek, or any model
-
-This skill loads automatically on **Claude** (Claude Code & claude.ai). To run the same thing on **ChatGPT, DeepSeek, or any other capable LLM**, use the self-contained prompt in **[`PORTABLE_PROMPT.md`](PORTABLE_PROMPT.md)** — it inlines everything, with no files to load and no Claude-specific assumptions.
-
-- **ChatGPT** — paste it into a **Custom GPT**'s *Instructions*, or simply send it as your first message in a normal chat.
-- **DeepSeek & others** — paste it as the **system prompt**, or as the first message of the conversation.
-
-Then just describe your task in the same chat. Quality is best on frontier models (Claude Sonnet/Opus, GPT‑4o/o‑series, DeepSeek‑V3/R1).
-
 ## 🐱 The AcademiCats skill family
 
 Three open skills that chain into one research workflow — install any or all:
@@ -105,10 +101,11 @@ Three open skills that chain into one research workflow — install any or all:
 
 ## 🙋 FAQ
 
+- **What are all these files?** Use just one path above — a git clone (Claude Code), the `.skill` file (Claude web/desktop), or `PORTABLE_PROMPT.md` (ChatGPT/DeepSeek). `SKILL.md` and `references/` are internals your assistant loads for you — no need to open them.
 - **It didn't trigger?** Restart Claude Code after installing, and phrase your message as a task — *"write the lit review from these papers …"*.
 - **Where do the papers come from?** You paste them in — or pair this with **Paper Search** to find and read them first, then write from the results.
-- **Which model?** Any model works; quality is best on Claude Sonnet or above.
-- **Private & free?** It runs on your own Claude — no account, nothing sent to us.
+- **Which model?** Any strong model works — Claude Sonnet/Opus, GPT‑4o/o‑series, or DeepSeek‑V3/R1 give the best results.
+- **Private & free?** It runs on your own AI — no account, nothing sent to us.
 
 <div align="center">
 <br>
