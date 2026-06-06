@@ -8,7 +8,7 @@
 
 # 🐱 Synthesis Lab
 
-**Turn your sources into polished academic writing — literature reviews, proposals, essays, statements of purpose, résumés. Every citation traced to a real paper and verified before you ever see it.**
+**Turn your sources into polished academic writing — literature reviews, proposals, essays, statements of purpose, résumés. Every citation traces to a paper you supplied, and gets cross-checked against your sources before delivery.**
 
 <br>
 
@@ -29,7 +29,7 @@
 
 ✍️ **Writes from *your* sources** — give it a handful of papers and your core argument; it plans, drafts, reviews, and polishes a coherent piece across **ten document types**, from literature reviews to PhD statements of purpose to résumés.
 
-🔗 **Citations you can trust** — it cites *only* the papers you supply, uses a specific number or quote *only* when it appears in the source, and cross-checks every in-text citation against your pool before delivering. No invented authors, years, or findings.
+🔗 **Disciplined citations** — it cites *only* the papers you supply, uses a specific number or quote *only* when it appears in the source, and cross-checks every in-text citation against your pool before delivering. No invented authors, years, or findings.
 
 🧭 **It curates, not just writes** — papers that don't actually fit your thesis get set aside with a reason, instead of being shoehorned in to look thorough.
 
@@ -79,7 +79,7 @@ Literature review · Theoretical framework · Research proposal · Introduction 
 |  | Synthesis Lab (this skill) | [AcademiCats full product →](https://academicats.com) |
 |---|:---:|:---:|
 | ⚡ **Speed** | minutes (one Claude pass) | faster — streamed, parallel drafting |
-| Grounded writing, verified citations | ✅ | ✅ |
+| Grounded writing, citations cross-checked | ✅ | ✅ |
 | Built-in paper search & deep read | bring your own | ✅ end-to-end |
 | Saved projects & live citation manager | — | ✅ |
 | Multi-agent peer review of your draft | — | ✅ Paper Review |

@@ -3,7 +3,8 @@ name: synthesis-lab
 description: >-
   Write grounded academic and application documents from a set of source papers,
   with strict citation discipline — every specific claim traces to a real
-  supplied paper and citations are verified before delivery, never fabricated.
+  supplied paper and citations are cross-checked against those papers before
+  delivery, not fabricated.
   Use this skill WHENEVER the user wants to draft scholarly or application
   writing from sources: a literature review, theoretical framework, research
   proposal, introduction, discussion, conclusion, abstract, or academic essay —
@@ -19,8 +20,9 @@ description: >-
 
 Turn a set of source papers plus the author's argument into a grounded academic
 document. Pure reasoning — no scripts. The entire point is **citation
-discipline**: every specific claim traces to a supplied paper, and you verify
-citations before delivering. One fabricated citation and an academic stops
+discipline**: every specific claim traces to a supplied paper, and you
+cross-check citations against those papers before delivering. One fabricated
+citation and an academic stops
 trusting the tool.
 
 ## Inputs you need
