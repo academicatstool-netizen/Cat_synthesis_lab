@@ -67,7 +67,7 @@
 **🖥️ Claude Code** —— 本地运行、自动触发
 ```bash
 mkdir -p ~/.claude/skills
-git clone https://github.com/jy1529098645-gif/Cat_synthesis_lab.git ~/.claude/skills/synthesis-lab
+git clone https://github.com/academicatstool-netizen/Cat_synthesis_lab.git ~/.claude/skills/synthesis-lab
 ```
 重启 Claude Code，然后直接说 —— *"用这几篇论文帮我写论点为 X 的文献综述…"*
 
@@ -97,9 +97,9 @@ git clone https://github.com/jy1529098645-gif/Cat_synthesis_lab.git ~/.claude/sk
 
 三个开源 skill，串起一条完整的研究工作流——按需安装其一或全部：
 
-- 🔍 [论文检索](https://github.com/jy1529098645-gif/Cat_paper_search) —— 找文献、读文献
+- 🔍 [论文检索](https://github.com/academicatstool-netizen/Cat_paper_search) —— 找文献、读文献
 - ✍️ **文献写作台** *（你在这里）* —— 用你的文献写出有据可查的成稿
-- 🧪 [模拟同行评审](https://github.com/jy1529098645-gif/Cat_paper_review) —— 对你自己的草稿做同行评审
+- 🧪 [模拟同行评审](https://github.com/academicatstool-netizen/Cat_paper_review) —— 对你自己的草稿做同行评审
 
 **一次装齐三个** —— clone 任意一个仓库后运行 `bash install.sh`。
 

@@ -67,7 +67,7 @@ Pick whichever AI you use; each setup takes under a minute.
 **🖥️ Claude Code** — runs locally, triggers itself
 ```bash
 mkdir -p ~/.claude/skills
-git clone https://github.com/jy1529098645-gif/Cat_synthesis_lab.git ~/.claude/skills/synthesis-lab
+git clone https://github.com/academicatstool-netizen/Cat_synthesis_lab.git ~/.claude/skills/synthesis-lab
 ```
 Restart Claude Code, then just ask — *"write the lit review for my thesis arguing X, using these papers …"*
 
@@ -97,9 +97,9 @@ Literature review · Theoretical framework · Research proposal · Introduction 
 
 Three open skills that chain into one research workflow — install any or all:
 
-- 🔍 [Paper Search](https://github.com/jy1529098645-gif/Cat_paper_search) — find & read papers
+- 🔍 [Paper Search](https://github.com/academicatstool-netizen/Cat_paper_search) — find & read papers
 - ✍️ **Synthesis Lab** *(you are here)* — write grounded papers from your sources
-- 🧪 [Paper Review](https://github.com/jy1529098645-gif/Cat_paper_review) — peer-review your own draft
+- 🧪 [Paper Review](https://github.com/academicatstool-netizen/Cat_paper_review) — peer-review your own draft
 
 **Install all three at once** — clone any one repo, then run `bash install.sh`.
 
