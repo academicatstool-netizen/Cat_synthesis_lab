@@ -95,13 +95,14 @@ Literature review · Theoretical framework · Research proposal · Introduction 
 
 ## 🐱 The AcademiCats skill family
 
-Three open skills that chain into one research workflow — install any or all:
+Four open skills that chain into one research workflow — install any or all:
 
+- 🧭 [Find Angles](https://github.com/academicatstool-netizen/Cat_find_angles) — turn a topic into research directions
 - 🔍 [Paper Search](https://github.com/academicatstool-netizen/Cat_paper_search) — find & read papers
 - ✍️ **Synthesis Lab** *(you are here)* — write grounded papers from your sources
 - 🧪 [Paper Review](https://github.com/academicatstool-netizen/Cat_paper_review) — peer-review your own draft
 
-**Install all three at once** — clone any one repo, then run `bash install.sh`.
+**Install all at once** — clone any one repo, then run `bash install.sh`.
 
 ## 🙋 FAQ
 
