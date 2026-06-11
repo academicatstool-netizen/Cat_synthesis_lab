@@ -14,8 +14,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-7C5CFF.svg)](LICENSE)
 &nbsp;[![Claude](https://img.shields.io/badge/Claude-7C5CFF.svg)](https://claude.com/claude-code)
-&nbsp;[![ChatGPT](https://img.shields.io/badge/ChatGPT-7C5CFF.svg)](https://chatgpt.com)
-&nbsp;[![DeepSeek](https://img.shields.io/badge/DeepSeek-7C5CFF.svg)](https://chat.deepseek.com)
+&nbsp;[![Codex](https://img.shields.io/badge/Codex-7C5CFF.svg)](https://github.com/openai/codex)
 &nbsp;[![Full product](https://img.shields.io/badge/full%20product-academicats.com-7C5CFF.svg)](https://academicats.com)
 
 </div>
@@ -23,7 +22,7 @@
 ---
 
 > ### 🪶 This is the **lite, open-source edition** of [**AcademiCats**](https://academicats.com) — now in free open beta
-> The full product at **[academicats.com](https://academicats.com)** is an AI research workbench that takes you from *finding* papers through *reading, writing, and self-review* — with saved projects, live citation tooling, a polished editor, and a multi-agent reviewer. This skill is a free, self-contained slice of the writing workflow you can run on your own AI — Claude, ChatGPT, or DeepSeek.
+> The full product at **[academicats.com](https://academicats.com)** is an AI research workbench that takes you from *finding* papers through *reading, writing, and self-review* — with saved projects, live citation tooling, a polished editor, and a multi-agent reviewer. This skill is a free, self-contained slice of the writing workflow you can run on your own AI — Claude or Codex.
 
 ---
 
@@ -73,9 +72,9 @@ Restart Claude Code, then just ask — *"write the lit review for my thesis argu
 
 **🌐 Claude (web / desktop app)** — download **[`synthesis-lab.skill`](synthesis-lab.skill)**, then upload it under **Settings → Capabilities → Skills**. Ask in any chat.
 
-**🤖 ChatGPT** — open **[`PORTABLE_PROMPT.md`](PORTABLE_PROMPT.md)** and paste it into a **Custom GPT**'s *Instructions* (or just send it as your first message). Then give it your papers and goal.
+**💻 Codex / any coding agent** — clone the repo and point the agent at **`SKILL.md`**; it follows the same instructions as Claude Code. Pure reasoning, nothing to install. Then give it your papers and goal.
 
-**💬 DeepSeek / any other model** — paste **[`PORTABLE_PROMPT.md`](PORTABLE_PROMPT.md)** as the **system prompt** (or first message). Then give it your papers and goal.
+**💬 Any other model** — paste **[`PORTABLE_PROMPT.md`](PORTABLE_PROMPT.md)** as the **system prompt** (or first message). Then give it your papers and goal.
 
 > ✅ **No web access needed** — Synthesis Lab is pure reasoning, so it runs fully on any model, online or off. You bring the papers; it never needs to look anything up.
 
@@ -106,10 +105,10 @@ Four open skills that chain into one research workflow — install any or all:
 
 ## 🙋 FAQ
 
-- **What are all these files?** Use just one path above — a git clone (Claude Code), the `.skill` file (Claude web/desktop), or `PORTABLE_PROMPT.md` (ChatGPT/DeepSeek). `SKILL.md` and `references/` are internals your assistant loads for you — no need to open them.
+- **What are all these files?** Use just one path above — a git clone (Claude Code), the `.skill` file (Claude web/desktop), or `PORTABLE_PROMPT.md` (any other model). `SKILL.md` and `references/` are internals your assistant loads for you — no need to open them.
 - **It didn't trigger?** Restart Claude Code after installing, and phrase your message as a task — *"write the lit review from these papers …"*.
 - **Where do the papers come from?** You paste them in — or pair this with **Paper Search** to find and read them first, then write from the results.
-- **Which model?** Any strong model works — Claude Sonnet/Opus, GPT‑4o/o‑series, or DeepSeek‑V3/R1 give the best results.
+- **Which model or agent?** Claude (Sonnet/Opus) via Claude Code or Codex give the best results — any other capable model can run the portable prompt.
 - **Private & free?** It runs on your own AI — no account, nothing sent to us.
 
 <div align="center">
