@@ -59,6 +59,14 @@ You gave the type (lit review), the thesis, and the papers — so it writes stra
 
 <br>
 
+## 🔬 Why you can trust it
+
+A writing tool that invents citations is worse than useless — so this repo ships proof, not just claims:
+
+- **[Generic AI vs. Synthesis Lab →](examples/)** — the same lit-review task, showing how a generic chatbot miscredits a real paper with a finding it never made, versus the disciplined, source-checked draft this skill produces.
+- **[How citation discipline works →](METHODOLOGY.md)** — the exact rules, and an honest note on what "checked" does and does not mean (a soft author/year cross-check, not hard quote verification).
+- **[Known limitations →](LIMITATIONS.md)** — the failure cases we know about, written down.
+
 ## 🚀 Get started — pick your platform
 
 Pick whichever AI you use; each setup takes under a minute.
